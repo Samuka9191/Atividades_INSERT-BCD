@@ -19,7 +19,7 @@ sql
 USE vendas_informatica;
 
 INSERT INTO cliente(nome_cliente, email, cidade, estado, data_cadastro)
-VALUES ("Rubervaldo Sesiano", "ruber.sesi@gmail.com", "Jaguariuna", "São Paulo", "2026-10-28");
+VALUES ("Rubervaldo Sesiano", "ruber.sesi@gmail.com", "Jaguariuna", "São Paulo", "2026-10-21");
 ````
 2. Cadastro de Produto
 
@@ -38,7 +38,7 @@ sql
 USE vendas_informatica;
 
 INSERT INTO produto(nome_produto, marca, preco_unitario, estoque, ativo, data_cadastro)
-VALUES ("MousePad 5POL", "LUMIX", 59.98, 35, 1, "2026-10-28");
+VALUES ("MousePad 5POL", "LUMIX", 59.98, 35, 1, "2026-10-21");
 ````
 3. Registro de Venda
 
@@ -59,7 +59,7 @@ sql
 USE vendas_informatica;
 
 INSERT INTO venda(id_cliente, id_produto, data_venda, quantidade, preco_unitario_venda, desconto_percentual, forma_pagamento, status_venda)
-VALUES (101, 21, "2026-10-28", 10, 599.80, 1.33, "PIX", "Concluida");
+VALUES (101, 21, "2026-10-21", 10, 599.80, 1.33, "PIX", "Concluida");
 ````
 Objetivo do Projeto
 
